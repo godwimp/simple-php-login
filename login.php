@@ -19,6 +19,6 @@
         echo "<center><b><font size='16px'>Halaman Beranda</font></b></center>";
     } else {
         echo "Anda gagal login, silahkan <a href='index.html'>Login kembali</a>";
-        echo mysqli_error($mysqli);
+        echo mysqli_error($con);
     }
 ?>
